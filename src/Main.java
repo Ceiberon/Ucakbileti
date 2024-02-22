@@ -25,7 +25,7 @@ public class Main {
         int yolculukTipi = input.nextInt();
 
         if (yolculukTipi == 2) {
-            tutar= tutar * 0.8; // Gidiş-dönüş yapılacaksa tutara %20 indirim uygula
+            tutar= tutar * 1.6; // Gidiş-dönüş yapılacaksa tutara %20 indirim uygula
         }
 
         System.out.println("Toplam Tutar: " + tutar + " TL");
