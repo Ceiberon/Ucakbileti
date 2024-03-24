@@ -11,7 +11,7 @@ public class Main {
         System.out.print("Mesafe (Km Cinsinden): ");
         km = input.nextDouble(); 
 
-        tutar = km * 0.10; // km başına ücret 0.10 TL
+        tutar = km * 0.10; 
 
         if (yas < 12) {
             tutar = tutar * 0.5; 
